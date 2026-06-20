@@ -1,0 +1,969 @@
+# ========================================
+# PYTHON + DJANGO + FLASK + FASTAPI
+# REACTJS + POSTGRESQL + MONGODB
+# COMPLETE PRODUCTION .GITIGNORE
+# ========================================
+
+# ========================================
+# PYTHON - CORE
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+*.pytest_cache
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+mediafiles/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+pyproject.toml.bak
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.*.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ENV.bak/
+virtualenv/
+.venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# ========================================
+# DJANGO SPECIFIC
+# ========================================
+
+# Django migration files (uncomment if you want to ignore migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Django media & static
+media/
+static/
+staticfiles/
+assets/
+mediafiles/
+
+# Django session storage
+sessions/
+
+# Django debug toolbar
+debug.log
+
+# Django secret key
+secret_key.py
+secrets.json
+secrets.py
+
+# ========================================
+# FLASK SPECIFIC
+# ========================================
+
+# Flask session
+flask_session/
+instance/
+
+# Flask-SQLAlchemy
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask-Migrate
+migrations/versions/*.py
+!migrations/versions/__init__.py
+
+# Flask shell history
+.flask_history
+
+# ========================================
+# FASTAPI SPECIFIC
+# ========================================
+
+# FastAPI generated files
+*.openapi.json
+*.openapi.yaml
+
+# FastAPI static
+static/
+templates/
+
+# ========================================
+# POSTGRESQL SPECIFIC
+# ========================================
+
+# PostgreSQL
+*.sql
+*.psql
+*.backup
+*.dump
+*.pgdump
+*.sql.gz
+*.sql.zip
+pgdata/
+postgres_data/
+postgresql/
+data/
+pg_log/
+pg_xlog/
+pg_wal/
+pg_stat/
+pg_stat_tmp/
+pg_subtrans/
+pg_tblspc/
+pg_twophase/
+pg_multixact/
+pg_notify/
+pg_serial/
+pg_snapshots/
+pg_replslot/
+pg_logical/
+postmaster.pid
+postmaster.opts
+*.conf.local
+
+# ========================================
+# MONGODB SPECIFIC
+# ========================================
+
+# MongoDB
+*.mongodb
+*.bson
+*.json.gz
+dump/
+mongodb/
+mongo_data/
+data/db/
+mongod.log
+mongodb.log
+*.lock
+mongod.lock
+mongodb.pid
+*.wt
+*.wt.wt
+*.wiredtiger
+*.mongo
+*.mongodb
+
+# MongoDB Compass
+.compass/
+
+# ========================================
+# NODE.JS / REACTJS
+# ========================================
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# ========================================
+# REACT SPECIFIC
+# ========================================
+
+# React build
+/build
+/dist
+/build-static
+
+# React development
+*.chunk.js
+*.chunk.css
+*.js.map
+*.css.map
+*.d.ts
+*.d.ts.map
+
+# React environment
+.env.development
+.env.production
+.env.test
+
+# React testing
+coverage/
+.nyc_output/
+.jest-cache/
+test-results/
+
+# CRA (Create React App)
+/screenshots/
+
+# React Native
+android/
+ios/
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# ========================================
+# DOCKER & CONTAINERS
+# ========================================
+
+# Docker
+Dockerfile.*
+*.dockerignore
+.dockerignore
+docker-compose.*.yml
+docker-compose.*.yaml
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.local.yml
+docker-compose.local.yaml
+.Dockerfile
+*.docker
+
+# Docker volumes
+volumes/
+docker-volumes/
+.docker-volumes/
+
+# Kubernetes
+*.kubeconfig
+*.k8s
+*.k8s.local
+*.k8s.production
+*.k8s.staging
+*.k8s.development
+helm/
+charts/
+*.helm
+kustomization.yaml.local
+*.secret.yaml
+*.secret.yml
+
+# ========================================
+# DATABASES & DATA
+# ========================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+*.db-journal
+*.sqlite3-journal
+
+# PostgreSQL (already covered above but keeping for safety)
+*.sql
+*.backup
+*.dump
+*.pgdump
+*.psql
+
+# MongoDB (already covered above but keeping for safety)
+*.bson
+*.mongodb
+
+# Redis
+*.rdb
+*.aof
+dump.rdb
+appendonly.aof
+redis.log
+
+# Elasticsearch
+elasticsearch/
+*.log.gz
+*.log
+
+# MySQL
+*.sql
+*.dump
+*.ibd
+*.frm
+*.MYD
+*.MYI
+mysql-data/
+data/
+
+# General data directories
+data/
+datasets/
+database/
+db/
+sql/
+
+# ========================================
+# TESTING & QUALITY
+# ========================================
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+cover/
+*.cover
+*.py,cover
+.jest-cache/
+test-results/
+.nyc_output/
+.nosetests/
+nosetests.xml
+unittest.xml
+*.test-report
+
+# Code quality
+.flake8
+.mypy_cache
+.pyre/
+.pytype/
+.pylint.d/
+pylint-report.txt
+black-report.txt
+isort-report.txt
+
+# ========================================
+# LOGS & TEMPORARY FILES
+# ========================================
+
+# Logs
+logs/
+*.log
+log/
+debug.log
+error.log
+access.log
+app.log
+django.log
+flask.log
+fastapi.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*.cached
+*.swp
+*.swo
+*.swn
+*.~*
+*~
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+
+# PID files
+*.pid
+*.pid.lock
+*.seed
+*.lock
+
+# ========================================
+# OS & EDITOR FILES
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+*.der
+*.p12
+*.pfx
+
+# ========================================
+# IDEs & EDITORS
+# ========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+.vscode-test/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+*.classpath
+*.project
+*.settings/
+*.prefs
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Vim
+*.swp
+*.swo
+*.un~
+*.netrwhist
+.vim/
+_*.py
+
+# Atom
+.atom/
+*.atom
+.config/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ========================================
+# GIT & VERSION CONTROL
+# ========================================
+
+# Git
+*.orig
+*.rej
+*.patch
+.gitattributes
+.gitmodules
+.gitkeep
+
+# ========================================
+# API & SECURITY
+# ========================================
+
+# API keys and secrets
+*.secret
+*.env
+.env.*
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+secrets/
+credentials/
+keys/
+certs/
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+*.der
+*.p12
+*.pfx
+*.p8
+
+# JWT tokens
+*.jwt
+*.token
+*.tokens
+
+# OAuth
+oauth.txt
+oauth.json
+*.oauth
+
+# API documentation (generated)
+*.swagger
+*.openapi
+*.postman
+*.insomnia
+*.bruno
+
+# ========================================
+# CLOUD & DEPLOYMENT
+# ========================================
+
+# AWS
+.aws/
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+*.p12
+*.pfx
+*.p8
+*.pub
+aws-credentials.json
+aws-config.json
+*credentials*
+
+# GCP
+*.json
+*.p12
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+*.p8
+*.pub
+gcp-credentials.json
+
+# Azure
+*.publishsettings
+*.pubxml
+*.user
+*.publishproj
+
+# Firebase
+.firebase/
+.firebaserc
+*.firestore
+*.fcm
+serviceAccountKey.json
+
+# Heroku
+.heroku/
+*.heroku
+
+# Vercel
+.vercel
+*.vercel
+
+# Netlify
+.netlify/
+*.netlify
+
+# Railway
+.railway/
+*.railway
+
+# Render
+.render/
+*.render
+
+# ========================================
+# CI/CD & BUILD TOOLS
+# ========================================
+
+# CI/CD
+.github/
+.gitlab/
+.azure-pipelines/
+.travis.yml
+.jenkins/
+.circleci/
+.drone.yml
+.gitlab-ci.yml
+github-actions/
+*.ci
+*.cd
+
+# Build tools
+*.gradle
+*.mvn
+*.sbt
+*.bazel
+*.pants
+*.buck
+*.pants.d
+build/
+dist/
+*.jar
+*.war
+*.ear
+
+# ========================================
+# FRONTEND SPECIFIC
+# ========================================
+
+# React build outputs
+build/
+dist/
+*.chunk.js
+*.chunk.css
+*.js.map
+*.css.map
+*.d.ts
+*.d.ts.map
+
+# Webpack
+*.webpack
+*.webpack-assets.json
+
+# Vite
+*.vite
+.vite/
+
+# Tailwind CSS
+*.tailwind
+*.tailwind.css
+
+# ========================================
+# BACKEND SPECIFIC
+# ========================================
+
+# Django
+*.pyc
+__pycache__/
+*.mo
+*.pot
+db.sqlite3
+migrations/
+celerybeat-schedule
+celerybeat.pid
+
+# Flask
+instance/
+.webassets-cache
+flask_session/
+
+# FastAPI
+*.openapi.json
+*.openapi.yaml
+
+# Django REST Framework
+*.drf
+*.drf-yaml
+
+# ========================================
+# DOCKER COMPOSE EXCLUDES
+# ========================================
+
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.local.yml
+docker-compose.local.yaml
+docker-compose.dev.yml
+docker-compose.dev.yaml
+docker-compose.prod.yml
+docker-compose.prod.yaml
+
+# ========================================
+# ENVIRONMENT FILES
+# ========================================
+
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+.env.test
+.env.example
+.env.template
+.env.sample
+*.local
+*.example
+*.template
+*.sample
+
+# ========================================
+# MISC
+# ========================================
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.pyc
+*.pyo
+*.pyd
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.synctex
+*.bak
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfplan
+*.auto.tfvars
+
+# Ansible
+*.retry
+*.vault
+*.vaulted
+
+# Generated files
+*.generated
+*.min
+*.bundle
+*.chunk
+
+# Cache directories
+.cache/
+.cached/
+.parcel-cache/
+.angular/
+.nx/
+.turbo/
+.lerna/
+.pnpm-store/
+
+# ========================================
+# DEVELOPMENT SPECIFIC
+# ========================================
+
+# Development database
+*.dev.db
+*.dev.sqlite
+*.dev.sqlite3
+
+# Development logs
+*.dev.log
+development.log
+
+# Development tools
+.python-version
+.ruby-version
+.nvmrc
+.node-version
+.tool-versions
+
+# Local development overrides
+*.local
+*.dev
+*.development
